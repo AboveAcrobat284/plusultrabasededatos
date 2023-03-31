@@ -9,6 +9,7 @@ import java.util.List;
 
 
 @RestController
+@CrossOrigin
 @RequestMapping("/marco")
 public class MarcoController {
     @Autowired

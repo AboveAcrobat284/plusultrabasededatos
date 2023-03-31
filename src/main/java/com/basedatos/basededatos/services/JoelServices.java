@@ -4,11 +4,13 @@ import com.basedatos.basededatos.dao.JoelDao;
 import com.basedatos.basededatos.models.JoelModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
+@CrossOrigin
 @Service
 public class JoelServices {
     @Autowired
